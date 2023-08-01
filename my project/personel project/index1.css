@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(130, 168, 143);
+}
+
+.container, .container1 {
+  display: flex;
+  flex-direction: row; /* Stack elements vertically */
+  align-items: center; /* Center elements horizontally */
+}
+
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.next-button {
+  display: block;
+  background-color: #222e22;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 1431px;
+  text-align: center;
+  border: 5px solid #3bbbf2;
+  border-radius: 50px;
+  margin-top: 80px; /* Add some space between the square and the button */
+}
+ .next-butt {
+  display: block;
+  background-color: #222e22;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 1431px;
+  text-align: center;
+  border: 5px solid #3bbbf2;
+  border-radius: 100px;
+  margin-top: 25px; /* Add some space between the square and the button */
+}
+
+.next-button:hover, .next-butt:hover {
+  background-color: #6a8ef3;
+}
+
+
+
+.navbar {
+  list-style-type: none;
+  margin-right: 50;
+  padding: 0;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: rgb(130, 168, 143);
+}
+ .navbar li {
+  float: left;
+}
+ .navbar li a {
+  list-style: none;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1rem;
+  font-weight: 550;
+  display: block;
+  padding: 1px 21px;
+  color: black;
+  text-decoration: none;
+}
+ .navbar li a:hover {
+  background-color:rgb(205, 248, 112);
+  border-radius: 100px;
+}
+ .navbar li a.active {
+  background-color: #4CAF50;
+  color: rgb(85, 13, 240);
+}
+
+
